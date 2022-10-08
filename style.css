@@ -6,3 +6,7 @@
   border: 15px;
   border-color: var(--brendColor);
 }
+
+h1 {
+  color: var (--brendColor);
+}
