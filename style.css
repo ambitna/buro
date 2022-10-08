@@ -9,4 +9,5 @@
 
 h1 {
   color: var(--brendColor);
+  font-size: 40px;
 }
