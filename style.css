@@ -1,13 +1,58 @@
 :root {
   --brendColor: #bb042f;
+  --brendColor-text: #3E3D52;
+  --brend-title-font: 'Comfortaa';
+  --brend-font: 'Open Sans', sans-serif;'
 }
 
+
+
 .hero-page {
-  border: 15px;
+  border: 7px solid;
   border-color: var(--brendColor);
+  text-align: center 
+}
+
+.hero {
+padding: 160px 0 200px;
 }
 
 h1 {
   color: var(--brendColor);
   font-size: 40px;
+  font-family: var(--brend-title-font);
+ font-weight: bold;
+}
+
+h2 {
+  color: var(--brendColor-text);
+  font-size: 24px;
+  font-family: var(--brend-font);
+  font-weight: bold;
+}
+
+h3 {
+  color: var(--brendColor-text);
+  font-size: 20px;
+  font-family: var(--brend-font);
+}
+
+.btn-branding {
+  background: var(--brendColor);
+  color: azure;
+  border-radius: 5px;
+  margin: 50px 0;
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 18px;
+    text-align: center;
+    color: azure; 
+  }
+  .hero-page {
+    background: var(--brendColor);
+    color: azure; 
+    border: none;
+  }
 }
