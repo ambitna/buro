@@ -1,5 +1,5 @@
 :root {
-  --brendColor: #6F63FF;
+  --brendColor: #bb042f;
 }
 
 .hero-page {
@@ -8,5 +8,5 @@
 }
 
 h1 {
-  color: var (--brendColor);
+  color: var(--brendColor);
 }
