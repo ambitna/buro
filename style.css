@@ -2,7 +2,7 @@
   --brendColor: #bb042f;
   --brendColor-text: #3E3D52;
   --brend-title-font: 'Comfortaa';
-  --brend-font: 'Open Sans', sans-serif;'
+  --brend-font: 'Open Sans', sans-serif;
 }
 
 
@@ -14,7 +14,7 @@
 }
 
 .hero {
-padding: 160px 0 200px;
+padding: 100px 0 50px;
 }
 
 h1 {
@@ -35,6 +35,13 @@ h3 {
   color: var(--brendColor-text);
   font-size: 20px;
   font-family: var(--brend-font);
+}
+
+p {
+  color: var(--brendColor-text);
+  font-size: 20px;
+  font-family: var(--brend-font);
+  text-align: left;
 }
 
 .btn-branding {
