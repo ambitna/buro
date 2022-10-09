@@ -62,4 +62,9 @@ p {
     color: azure; 
     border: none;
   }
+
+  h2, h3, p {
+  
+    color: azure; 
+  }
 }
