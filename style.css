@@ -51,6 +51,19 @@ p {
   margin: 50px 0;
 }
 
+.content__rotate:hover {
+	display: flex;
+	text-transform: uppercase;
+	justify-content: center;
+	align-items: center;
+	letter-spacing: 1px;
+	text-align: center;
+	width: 70px;
+	height: 70px;
+	transition: all 0.8s ease 0s;
+  transform: rotate(-360deg);
+}
+
 @media (max-width: 768px) {
   h1 {
     font-size: 18px;
