@@ -64,6 +64,7 @@ p {
   transform: rotate(-360deg);
 }
 
+
 @media (max-width: 768px) {
   h1 {
     font-size: 18px;
@@ -79,4 +80,6 @@ p {
   h2, h3, p {
     color: azure; 
   }
+  .content__rotate 
+  { filter: invert(100%); }
 }
