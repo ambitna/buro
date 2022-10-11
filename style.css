@@ -47,7 +47,6 @@ header {
   color: var(--brendColor-text);
   font-size: 25px;
   font-family: var(--brend-font);
-  text-align: left;
 }
 
 .btn-branding {
