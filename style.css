@@ -81,14 +81,14 @@ p {
     color: azure; 
     font-size: 30px;
   }
-  .img{
+  .img {
     background-image: url(images/logo-wh.png); }
 
-    .btn-branding {
+  .btn-branding {
       font-size: 30px;
       background: var(--brendColor);
       color: azure;
       border-radius: 5px;
       margin: 50px 0;
-    }
+  }
 }
