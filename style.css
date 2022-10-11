@@ -3,6 +3,7 @@
   --brendColor-text: #3E3D52;
   --brend-title-font: 'Comfortaa';
   --brend-font: 'Open Sans', sans-serif;
+  --brendColor-text-small: azure; 
 }
 
 
@@ -81,14 +82,16 @@ p {
     color: azure; 
     font-size: 30px;
   }
-  .img {
-    background-image: url(images/logo-wh.png); }
+  .content__rotate{
+    background-image: url(images/logo-wh.png);
+}
 
   .btn-branding {
       font-size: 30px;
       background: var(--brendColor);
       color: azure;
       border-radius: 5px;
+      border-color: azure;
       margin: 50px 0;
   }
 }
