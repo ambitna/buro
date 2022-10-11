@@ -6,8 +6,6 @@
   --brendColor-text-small: azure; 
 }
 
-
-
 .hero-page {
   border: 7px solid;
   border-color: var(--brendColor);
@@ -45,24 +43,34 @@ p {
   text-align: left;
 }
 
+header {
+  color: var(--brendColor-text);
+  font-size: 25px;
+  font-family: var(--brend-font);
+  text-align: left;
+}
+
 .btn-branding {
   background: var(--brendColor);
-  color: azure;
+  color: var(--brendColor-text-small);;
   border-radius: 5px;
   margin: 50px 0;
 }
-
-.content__rotate:hover {
-	display: flex;
-	text-transform: uppercase;
-	justify-content: center;
-	align-items: center;
-  letter-spacing: 1px;
-	text-align: center;
+.content__rotate {
 	width: 70px;
 	height: 70px;
+  background-image: url(images/logo.png);
+  background-size: cover;
+}
+
+
+.content__rotate:hover {
 	transition: all 0.8s ease 0s;
   transform: rotate(-360deg);
+}
+
+.connect-me{
+  padding: 0 0 20px;
 }
 
 
@@ -70,28 +78,34 @@ p {
   h1 {
     font-size: 40px;
     text-align: center;
-    color: azure; 
+    color: var(--brendColor-text-small);; 
   }
   .hero-page {
     background: var(--brendColor);
-    color: azure; 
+    color: var(--brendColor-text-small);; 
     border: none;
   }
 
   h2, h3, p {
-    color: azure; 
+    color: var(--brendColor-text-small);; 
     font-size: 30px;
   }
   .content__rotate{
     background-image: url(images/logo-wh.png);
-}
+  }
+
+  header {
+    color: vvar(--brendColor-text-small);;
+    font-size: 35px;
+    font-family: var(--brend-font);
+  }
 
   .btn-branding {
       font-size: 30px;
       background: var(--brendColor);
-      color: azure;
+      color: var(--brendColor-text-small);
       border-radius: 5px;
-      border-color: azure;
+      border-color: var(--brendColor-text-small);
       margin: 50px 0;
   }
 }
