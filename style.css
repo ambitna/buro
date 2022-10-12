@@ -8,19 +8,22 @@
 
 .hero-page {
   border: 7px solid;
+}
+
+body {
   border-color: var(--brendColor);
   text-align: center 
 }
 
 .hero {
-padding: 100px 0 50px;
+  padding: 100px 0 50px;
 }
 
 h1 {
   color: var(--brendColor);
   font-size: 40px;
   font-family: var(--brend-title-font);
- font-weight: bold;
+  font-weight: bold;
 }
 
 h2 {
@@ -94,13 +97,14 @@ a {
   color: rgb(17, 17, 17);
 }
 
+
 @media (max-width: 768px) {
   h1 {
     font-size: 40px;
     text-align: center;
     color: var(--brendColor-text-small);; 
   }
-  .hero-page {
+  .body {
     background: var(--brendColor);
     color: var(--brendColor-text-small);; 
     border: none;
