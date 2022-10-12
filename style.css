@@ -69,10 +69,30 @@ header {
 }
 
 .connect-me{
-  padding: 0 0 20px;
-  text-align: center; 
+  padding: 0 0 5px;
 }
 
+.star {
+  text-align: left; 
+  font-size: 140px;
+}
+
+.star:hover {
+	transition: all 0.8s ease 0s;
+  transform: rotate(-360deg);
+}
+
+.connect-me-rights {
+  padding: 0 0 5px;
+  text-align: right; 
+}
+.a:visited {
+  color: var(--brendColor);
+}
+
+a {
+  color: rgb(17, 17, 17);
+}
 
 @media (max-width: 768px) {
   h1 {
