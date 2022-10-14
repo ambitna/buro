@@ -139,7 +139,19 @@ header {
   background-repeat: no-repeat;
   }
 
-   
+  .foto2 {
+    background-image: url(images/foto2-b.png);
+    background-size: 450px;
+    height: 750px;
+    background-repeat: no-repeat;
+  }
+  
+  .foto2:hover {
+    background-image: url(images/foto2.png);
+    background-size: 450px;
+    height: 750px;
+    background-repeat: no-repeat;
+    }  
 
 .connect-me{
   padding: 0 0 5px;
