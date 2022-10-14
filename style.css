@@ -11,6 +11,11 @@
   border: 7px solid;
 }
 
+.nav-link {
+  color: var(--brendColor);
+  font-size: 20px;
+  font-family: var(--brend-title-font);  
+}
 
 body {
   background: var(--brendColor-text-small);
@@ -243,5 +248,11 @@ a {
     right: 10%;
     left: 10%;
   
+  }
+
+  .nav-link {
+    color: var(--brendColor-text-small);
+    font-size: 15px;
+    font-family: var(--brend-title-font);  
   }
 }
