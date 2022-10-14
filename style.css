@@ -3,16 +3,39 @@
   --brendColor-text: #3E3D52;
   --brend-title-font: 'Comfortaa';
   --brend-font: 'Open Sans', sans-serif;
-  --brendColor-text-small: azure; 
+  --brendColor-text-small: #FFFFFF; 
+  --hover-color: #C00909;
 }
 
 .hero-page {
   border: 7px solid;
 }
 
+
 body {
+  background: var(--brendColor-text-small);
+  text-align: center ; 
   border-color: var(--brendColor);
-  text-align: center 
+}
+
+.send-request {
+  color: var(--brendColor-text-small);
+  font-size: 40px;
+  font-family: var(--brend-title-font);
+  font-weight: bold;
+  text-align: center; 
+  position: absolute;
+  bottom: 30%;
+  right: 20%;
+  left: 20%;
+
+}
+
+.main-picture {
+  position: relative;
+	width: 100%;
+	height: 100%;
+  background-size: cover;
 }
 
 .hero {
@@ -56,8 +79,42 @@ header {
   background: var(--brendColor);
   color: var(--brendColor-text-small);;
   border-radius: 5px;
-  margin: 50px 0;
+  margin: 0;
+  position: absolute;
+  bottom: 10%;
+  right: 40%;
+  left: 40%;
+  font-size: 24px;
 }
+
+.btn-branding:hover {
+  background: var(--hover-color);
+  color: var(--brendColor-text-small);
+  border-radius: 5px;
+  margin: 0;
+  position: absolute;
+  bottom: 10%;
+  right: 40%;
+  left: 40%;
+  font-size: 24px;
+}
+
+.btn-branding-app {
+  background: var(--brendColor);
+  color: var(--brendColor-text-small);;
+  border-radius: 5px;
+  margin: 0;
+  font-size: 20px;
+}
+
+.btn-branding-app:hover {
+  background: var(--hover-color);
+  color: var(--brendColor-text-small);
+  border-radius: 5px;
+  margin: 0;
+  font-size: 20px;
+}
+
 .content__rotate {
 	width: 70px;
 	height: 70px;
@@ -65,11 +122,24 @@ header {
   background-size: cover;
 }
 
-
 .content__rotate:hover {
 	transition: all 0.8s ease 0s;
   transform: rotate(-360deg);
 }
+
+.foto {
+  background-image: url(images/portraite-b.png);
+  background-size: 550px;
+  background-repeat: no-repeat;
+}
+
+.foto:hover {
+  background-image: url(images/portraite.png);
+  background-size: 550px;
+  background-repeat: no-repeat;
+  }
+
+   
 
 .connect-me{
   padding: 0 0 5px;
@@ -89,29 +159,28 @@ header {
   padding: 0 0 5px;
   text-align: right; 
 }
-.a:visited {
-  color: var(--brendColor);
-}
 
 a {
   color: rgb(17, 17, 17);
 }
-
+ a:hover {
+  color: var(--hover-color);
+ }
 
 @media (max-width: 768px) {
   h1 {
     font-size: 40px;
     text-align: center;
-    color: var(--brendColor-text-small);; 
+    color: var(--brendColor-text-small);
   }
-  .body {
+  body {
     background: var(--brendColor);
-    color: var(--brendColor-text-small);; 
+    color: var(--brendColor-text-small);
     border: none;
   }
 
   h2, h3, p {
-    color: var(--brendColor-text-small);; 
+    color: var(--brendColor-text-small);
     font-size: 30px;
   }
   .content__rotate{
@@ -119,17 +188,48 @@ a {
   }
 
   header {
-    color: vvar(--brendColor-text-small);;
+    color: vvar(--brendColor-text-small);
     font-size: 35px;
     font-family: var(--brend-font);
   }
 
   .btn-branding {
-      font-size: 30px;
+      font-size: 15px;
       background: var(--brendColor);
       color: var(--brendColor-text-small);
       border-radius: 5px;
       border-color: var(--brendColor-text-small);
-      margin: 50px 0;
+      margin: 30px 0;
+      border-color: #FFFFFF;
+  }
+
+  .btn-branding-app {
+    background: var(--brendColor);
+    color: var(--brendColor-text-small);;
+    border-radius: 5px;
+    border-color: #FFFFFF;
+    margin: 0;
+    font-size: 15px;
+  }
+
+  a {
+    color: var(--brendColor-text-small);
+  }
+
+  .hero-page {
+    border: none;
+  }
+
+  .send-request {
+    color: var(--brendColor-text-small);
+    font-size: 30px;
+    font-family: var(--brend-title-font);
+    font-weight: bold;
+    text-align: center; 
+    position: absolute;
+    bottom: 30%;
+    right: 10%;
+    left: 10%;
+  
   }
 }
