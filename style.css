@@ -7,8 +7,13 @@
   --hover-color: #C00909;
 }
 
+.container {
+  width: 100%;
+}
+
 .hero-page {
   border: 7px solid;
+  width: 100%;
 }
 
 .nav-link {
