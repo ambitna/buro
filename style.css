@@ -17,6 +17,12 @@
   font-family: var(--brend-title-font);  
 }
 
+.home {
+  color: var(--brendColor);
+  font-size: 20px;
+  font-family: var(--brend-title-font);  
+}
+
 body {
   background: var(--brendColor-text-small);
   text-align: center ; 
@@ -251,6 +257,12 @@ a {
   }
 
   .nav-link {
+    color: var(--brendColor-text-small);
+    font-size: 15px;
+    font-family: var(--brend-title-font);  
+  }
+
+  .home {
     color: var(--brendColor-text-small);
     font-size: 15px;
     font-family: var(--brend-title-font);  
