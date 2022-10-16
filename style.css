@@ -6,6 +6,9 @@
   --brendColor-text-small: #FFFFFF; 
   --hover-color: #C00909;
 }
+* {
+box-sizing: border-box;
+}
 
 .container {
   width: 100%;
@@ -14,6 +17,8 @@
 .hero-page {
   border: 7px solid;
   width: 100%;
+  border-color: var(--brendColor);
+  padding: 10px;
 }
 
 .nav-link {
@@ -31,7 +36,8 @@
 body {
   background: var(--brendColor-text-small);
   text-align: center ; 
-  border-color: var(--brendColor);
+  padding: 10px;
+  text-decoration: none;
 }
 
 .send-request {
