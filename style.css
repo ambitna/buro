@@ -227,7 +227,7 @@ nav li.active a {
     text-align: center;
     color: var(--brendColor-text-small);
   }
-  body {
+  body, .projects {
     background: var(--brendColor);
     color: var(--brendColor-text-small);
     border: none;
