@@ -6,8 +6,11 @@
   --brendColor-text-small: #FFFFFF; 
   --hover-color: #C00909;
 }
+
 * {
 box-sizing: border-box;
+margin: 0;
+padding: 0;
 }
 
 .container {
@@ -21,12 +24,6 @@ box-sizing: border-box;
   padding: 10px;
 }
 
-.nav-link {
-  color: var(--brendColor);
-  font-size: 20px;
-  font-family: var(--brend-title-font);  
-}
-
 .home {
   color: var(--brendColor);
   font-size: 20px;
@@ -37,7 +34,10 @@ body {
   background: var(--brendColor-text-small);
   text-align: center ; 
   padding: 10px;
-  text-decoration: none;
+}
+
+.projects {
+  background-color: rgb(244, 215, 178);
 }
 
 .send-request {
@@ -182,11 +182,13 @@ header {
 .star {
   text-align: left; 
   font-size: 140px;
+  text-decoration: none;
 }
 
 .star:hover {
 	transition: all 0.8s ease 0s;
   transform: rotate(-360deg);
+  text-decoration: none;
 }
 
 .connect-me-rights {
@@ -200,6 +202,37 @@ a {
  a:hover {
   color: var(--hover-color);
  }
+
+ nav {
+  padding: 20px 0;
+  color: var(--brendColor);
+  font-size: 20px;
+  font-family: var(--brend-title-font);  
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+  margin-left: 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--brendColor);
+  transition: all 100ms ease-in-out;
+}
+
+nav a:hover,
+nav li.active a {
+  color: var (--hover-color);
+}
+
 
 @media (max-width: 768px) {
   h1 {
@@ -217,7 +250,7 @@ a {
     color: var(--brendColor-text-small);
     font-size: 30px;
   }
-  .content__rotate{
+ a .content__rotate{
     background-image: url(images/logo-wh.png);
   }
 
@@ -267,7 +300,13 @@ a {
   
   }
 
-  .nav-link {
+  nav {
+    color: var(--brendColor-text-small);
+    font-size: 15px;
+    font-family: var(--brend-title-font);  
+  }
+
+  nav a {
     color: var(--brendColor-text-small);
     font-size: 15px;
     font-family: var(--brend-title-font);  
