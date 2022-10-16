@@ -41,16 +41,11 @@ body {
 }
 
 .send-request {
-  color: var(--brendColor-text-small);
-  font-size: 40px;
+  color: var(--brendColor);
+  font-size: 20px;
   font-family: var(--brend-title-font);
   font-weight: bold;
   text-align: center; 
-  position: absolute;
-  bottom: 30%;
-  right: 20%;
-  left: 20%;
-
 }
 
 .main-picture {
@@ -102,10 +97,6 @@ header {
   color: var(--brendColor-text-small);;
   border-radius: 5px;
   margin: 0;
-  position: absolute;
-  bottom: 10%;
-  right: 40%;
-  left: 40%;
   font-size: 24px;
 }
 
@@ -114,10 +105,6 @@ header {
   color: var(--brendColor-text-small);
   border-radius: 5px;
   margin: 0;
-  position: absolute;
-  bottom: 10%;
-  right: 40%;
-  left: 40%;
   font-size: 24px;
 }
 
@@ -293,10 +280,6 @@ nav li.active a {
     font-family: var(--brend-title-font);
     font-weight: bold;
     text-align: center; 
-    position: absolute;
-    bottom: 30%;
-    right: 10%;
-    left: 10%;
   
   }
 
