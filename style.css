@@ -233,6 +233,7 @@ nav li.active a {
     border: none;
   }
 
+  
   h2, h3, p {
     color: var(--brendColor-text-small);
     font-size: 30px;
