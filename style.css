@@ -227,12 +227,17 @@ nav li.active a {
     text-align: center;
     color: var(--brendColor-text-small);
   }
-  body, .projects {
+  body {
     background: var(--brendColor);
     color: var(--brendColor-text-small);
     border: none;
   }
 
+  .projects {
+    background: #977254;
+    color: var(--brendColor-text-small);
+    border: none;
+  }
   
   h2, h3, p {
     color: var(--brendColor-text-small);
